@@ -19,7 +19,7 @@ eureka:
 server:
   port: 8081
 info:
-  describe: this is a admin project for labin test
+  describe: this is prod env for 8081
 
 ---
 spring:
@@ -38,4 +38,4 @@ eureka:
 server:
   port: 8082
 info:
-  describe: this is prod env
+  describe: this is prod env for 8082
