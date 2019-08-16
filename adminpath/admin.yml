@@ -6,7 +6,7 @@ spring:
 spring:
   profiles: dev
 info:
-  describe: '{cipher}adbbbeebb0f9053ab0bde82b8c74dc1d2495309273993b0ccac326fb50424a5a'
+  describe: '1234567'
 
 ---
 spring:
