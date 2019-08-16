@@ -6,7 +6,7 @@ spring:
 spring:
   profiles: dev
 info:
-  describe: '1234567'
+  describe: '1234567test'
 
 ---
 spring:
