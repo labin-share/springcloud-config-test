@@ -6,10 +6,10 @@ spring:
 spring:
   profiles: dev
 info:
-  describe: this is dev env for 8081
+  describe: '{cipher}adbbbeebb0f9053ab0bde82b8c74dc1d2495309273993b0ccac326fb50424a5a'
 
 ---
 spring:
   profiles: prod
 info:
-  describe: this is dev env for 8082
+  describe: '{cipher}adbbbeebb0f9053ab0bde82b8c74dc1d2495309273993b0ccac326fb50424a5a'
