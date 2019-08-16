@@ -4,38 +4,12 @@ spring:
 
 ---
 spring:
-  profiles: 8081
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka
-  instance:
-    # 随便取一个名字，用于显示在Eureka web界面上
-    # 它跟application name是有区别的，同一个微服务可以注册多个实例到eureka上去， 这些实力都属于同一个application，它们的name都是一样的
-    # 但是可以通过指定instance-id作为它们各自的唯一标识。
-    instance-id: admin-provider1
-    # 在Eureka能够看到服务的ip提示
-    prefer-ip-address: true
-server:
-  port: 8081
+  profiles: dev
 info:
   describe: this is dev env for 8081
 
 ---
 spring:
-  profiles: 8082
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka
-  instance:
-    # 随便取一个名字，用于显示在Eureka web界面上
-    # 它跟application name是有区别的，同一个微服务可以注册多个实例到eureka上去， 这些实力都属于同一个application，它们的name都是一样的
-    # 但是可以通过指定instance-id作为它们各自的唯一标识。
-    instance-id: admin-provider2
-    # 在Eureka能够看到服务的ip提示
-    prefer-ip-address: true
-server:
-  port: 8082
+  profiles: prod
 info:
   describe: this is dev env for 8082
